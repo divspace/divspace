@@ -1,0 +1,9 @@
+/node_modules
+/public/*
+!/public/favicon.ico
+!/public/index.php
+!/public/robots.txt
+/storage/*.key
+/vendor
+.DS_Store
+.env

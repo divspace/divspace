@@ -1,0 +1,564 @@
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: $dove-gray;
+    background: $white-smoke;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: $charcoal;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+a {
+    color: $turquoise;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+        text-decoration: underline;
+        color: $teal;
+    }
+
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+p {
+    line-height: 1.5;
+}
+
+.btn,
+a.btn {
+    background: $cerulean;
+    color: $white;
+    padding: 8px 15px;
+    border-radius: 2px;
+    background-clip: padding-box;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+
+    &:hover {
+        color: $white;
+        background: $pacific-blue;
+    }
+}
+
+header {
+    background: $turquoise;
+    color: $white;
+
+    a {
+        color: $white;
+    }
+
+    .top-bar {
+        position: relative;
+        padding-top: 15px;
+        padding-bottom: 120px;
+    }
+
+    .social {
+        margin-bottom: 0;
+
+        a {
+            color: rgba(255, 255, 255, 0.8);
+            display: inline-block;
+            text-align: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background-clip: padding-box;
+            padding-top: 2px;
+            font-size: 16px;
+            border: 2px solid rgba(255, 255, 255, 0.8);
+
+            &:hover {
+                color: $white;
+                border-color: $white;
+            }
+        }
+
+        li {
+            padding-right: 5px;
+
+            &:last-item {
+                padding-right: 0;
+            }
+        }
+    }
+
+    .actions {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+
+        a {
+            margin-right: 10px;
+            color: $white;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        .fa {
+            margin-right: 5px;
+        }
+    }
+
+    .profile-image {
+        position: absolute;
+        width: 160px;
+        height: 160px;
+        top: -180px;
+        margin-left: -80px;
+        left: 50%;
+    }
+
+    .name {
+        font-size: 48px;
+        margin-bottom: 15px;
+        letter-spacing: 0.5px;
+    }
+
+    .title {
+        font-size: 28px;
+        font-weight: 300;
+        font-style: italic;
+        color: rgba(255, 255, 255, 0.8);
+        margin-bottom: 30px;
+    }
+
+    .intro {
+        background: $pacific-blue;
+        padding-top: 90px;
+        padding-bottom: 60px;
+        position: relative;
+        font-size: 16px;
+    }
+
+    .profile {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .contact-info {
+        background: $cerulean;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 16px;
+
+        ul {
+            margin-bottom: 0;
+
+            li {
+                padding-right: 30px;
+                color: rgba(255, 255, 255, 0.8);
+
+                a {
+                    color: rgba(255, 255, 255, 0.8);
+
+                    &:hover {
+                        color: $white;
+                    }
+                }
+
+                &:last-child {
+                    padding-right: 0;
+                }
+
+                .fa {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+.page-nav-space-holder {
+    height: 60px;
+    position: relative;
+}
+
+.page-nav-wrapper {
+    background: $teal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    a {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    &.fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        background: $turquoise;
+    }
+
+    .page-nav {
+        margin: 0 auto;
+        display: inline-block;
+
+        li {
+            margin-right: 30px;
+            display: inline-block;
+            background: none;
+
+            &:hover,
+            &:active {
+                background: none;
+            }
+
+            &.active a {
+                color: $white;
+                background: none;
+            }
+
+            a {
+                color: rgba(255, 255, 255, 0.6);
+                padding: inherit;
+
+                &:hover {
+                    color: $white;
+                }
+
+                &:hover,
+                &:active,
+                &:focus {
+                    background: none;
+                }
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+.wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section {
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+    padding: 45px;
+    background: $white;
+    margin-bottom: 45px;
+    border-radius: 2px;
+    background-clip: padding-box;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.timeline {
+    border-left: 3px solid $turquoise;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    position: relative;
+    padding: 0 30px;
+    margin-left: 280px;
+
+    .item {
+        position: relative;
+        margin-bottom: 45px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: -43px;
+            top: 0;
+            display: inline-block;
+            width: 22px;
+            height: 22px;
+            border-radius: 50%;
+            background-clip: padding-box;
+            background: $white;
+            border: 3px solid $turquoise;
+        }
+
+        &:after {
+            content: "";
+            position: absolute;
+            left: -37px;
+            top: 6px;
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-clip: padding-box;
+            background: $turquoise;
+            z-index: 10;
+        }
+    }
+
+    .work-place {
+        position: relative;
+    }
+
+    .location {
+        position: absolute;
+        right: 0;
+        top: 2px;
+        color: $gray;
+
+        .fa {
+            margin-right: 5px;
+        }
+    }
+
+    .place {
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .job-meta {
+        position: absolute;
+        left: -280px;
+        top: 0;
+
+        .title {
+            font-size: 18px;
+            color: $turquoise;
+        }
+
+        .time {
+            color: $gray;
+        }
+    }
+
+    .job-desc {
+        color: $dove-gray;
+    }
+}
+
+.skills-section {
+    .subtitle {
+        font-size: 18px;
+        color: $gray;
+        margin-top: 0;
+        margin-bottom: 45px;
+        font-weight: 300;
+    }
+
+    .top-skills {
+        margin-bottom: 60px;
+
+        .item {
+            margin-bottom: 45px;
+        }
+    }
+
+    .skill-tag {
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+        padding: 6px 30px;
+        display: inline-block;
+        margin-right: 10px;
+        border: 1px solid $white-smoke;
+        font-weight: 500;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+}
+
+.contact-section {
+    .intro {
+        position: relative;
+        padding: 30px;
+        padding-left: 190px;
+        font-size: 16px;
+        color: $dove-gray;
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            left: 30px;
+        }
+    }
+
+    .service-list {
+        margin-left: 30px;
+        margin-bottom: 15px;
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        .fa {
+            color: $turquoise;
+        }
+    }
+
+    .social {
+        margin-bottom: 0;
+
+        a {
+            display: inline-block;
+            text-align: center;
+            font-size: 24px;
+            color: $gray;
+
+            &:hover {
+                color: $turquoise;
+            }
+        }
+
+        li {
+            margin-right: 10px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+footer {
+    text-align: center;
+
+    .container {
+        padding: 30px;
+        color: $gray;
+        letter-spacing: 0.5px;
+
+        a {
+            color: $gray;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    header {
+        .social {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .actions {
+            position: static;
+            margin: 0 auto;
+            margin-bottom: 30px;
+            text-align: center;
+
+            .btn {
+                margin-bottom: 15px;
+                font-size: 12px;
+                display: inline-block;
+                width: 100%;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .name {
+            font-size: 36px;
+        }
+
+        .title {
+            font-size: 22px;
+        }
+
+        .contact-info li {
+            margin-right: 0;
+            margin-bottom: 15px;
+            font-size: 14px;
+            width: 100%;
+            display: inline-block;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .section {
+        padding: 30px;
+    }
+
+    .section-title {
+        font-size: 20px;
+    }
+
+    .timeline {
+        margin-left: 0;
+        padding-right: 0;
+
+        .place {
+            margin-bottom: 5px;
+        }
+
+        .job-meta {
+            position: static;
+            margin-bottom: 15px;
+        }
+    }
+
+    .contact-section {
+        .intro {
+            padding: 0;
+            text-align: center;
+
+            .profile-image {
+                position: static;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+        }
+
+        .service-list {
+            margin-left: 0;
+        }
+
+        .social {
+            margin: 0 auto;
+        }
+    }
+}

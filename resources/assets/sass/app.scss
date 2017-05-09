@@ -383,9 +383,13 @@ header {
 
     .top-skills {
         margin-bottom: 60px;
+    }
 
-        .item {
-            margin-bottom: 45px;
+    .other-skills {
+        margin-bottom: 40px;
+
+        &:last-child {
+            margin-bottom: 0;
         }
     }
 

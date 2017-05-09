@@ -19,7 +19,7 @@
         <header>
             <div class="top-bar container-fluid">
                 <div class="actions">
-                    <a class="btn hidden-xs" href="mailto:kyle@divspace.com">
+                    <a class="btn hidden-xs" href="mailto:{{ $email }}">
                         <i class="fa fa-paper-plane" aria-hidden="true"></i> Hire Me
                     </a>
                     <a class="btn" href="{{ asset('resume.pdf') }}">
@@ -66,10 +66,10 @@
                             <i class="fa fa-globe"></i>Tempe, AZ</a>
                         </li>
                         <li class="list-inline-item">
-                            <i class="fa fa-envelope"></i><a href="mailto:kyle@divspace.com">kyle@divspace.com</a>
+                            <i class="fa fa-envelope"></i><a href="mailto:{{ $email }}">{{ $email }}</a>
                         </li>
                         <li class="list-inline-item">
-                            <i class="fa fa-phone"></i> <a href="tel://+14804344675">+1 480 434 4675</a>
+                            <i class="fa fa-phone"></i> <a href="tel://{{ $phone }}">{{ $phoneFormatted }}</a>
                         </li>
                     </ul>
                 </div>
@@ -263,7 +263,7 @@
                                 <i class="fa fa-check" aria-hidden="true"></i> Front-end development with Bootstrap and jQuery
                             </li>
                         </ul>
-                        <p>Drop me a line at <a href="mailto:kyle@divspace.com">kyle@divspace.com</a> or call me at <a href="tel://+14804344675">+1 480 434 4675</a></p>
+                        <p>Drop me a line at <a href="mailto:{{ $email }}">{{ $email }}</a> or call me at <a href="tel://{{ $phone }}">{{ $phoneFormatted }}</a></p>
                         <ul class="social list-inline">
                             <li class="list-inline-item">
                                 <a href="https://www.linkedin.com/in/divspace/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>

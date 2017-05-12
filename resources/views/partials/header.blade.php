@@ -16,7 +16,8 @@
             <h1 class="name">Kyle Anderson</h1>
             <div class="title">Web Developer &amp; PHP Programmer</div>
             <div class="profile">
-                <p>Multifaceted professional with a passion for the space where technology intersects with human experiences. Offer extensive experience in front- and back-end development, programming, and web design. Leverage a balance of creativity and technical savvy to create elegant code and exceptional user experiences.</p>
+                <p>
+                    Multifaceted professional with a passion for the space where technology intersects with human experiences. Offering extensive experience in front- and back-end development, programming, systems administration, and technology management. Leveraging a balance of creativity and technical savvy to create elegant code, increased productivity, and exceptional user experiences.</p>
             </div>
         </div>
     </div>

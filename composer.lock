@@ -292,12 +292,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "d36101c68f43e22fbe69e61eb2d9b68d9d698d15"
+                "reference": "72ef859df410d685101c8389eebb0cb8940ebbcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/d36101c68f43e22fbe69e61eb2d9b68d9d698d15",
-                "reference": "d36101c68f43e22fbe69e61eb2d9b68d9d698d15",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/72ef859df410d685101c8389eebb0cb8940ebbcd",
+                "reference": "72ef859df410d685101c8389eebb0cb8940ebbcd",
                 "shasum": ""
             },
             "require": {
@@ -413,7 +413,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-05-15T17:33:25+00:00"
+            "time": "2017-05-17T14:57:05+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -879,16 +879,16 @@
         },
         {
             "name": "psy/psysh",
-            "version": "v0.8.4",
+            "version": "v0.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/psysh.git",
-                "reference": "17cf432bb80d9198df239b80d00a29155bd74d82"
+                "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/17cf432bb80d9198df239b80d00a29155bd74d82",
-                "reference": "17cf432bb80d9198df239b80d00a29155bd74d82",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/38a9d21406597a0440690eafbcb0222f528c8ac6",
+                "reference": "38a9d21406597a0440690eafbcb0222f528c8ac6",
                 "shasum": ""
             },
             "require": {
@@ -948,7 +948,7 @@
                 "interactive",
                 "shell"
             ],
-            "time": "2017-05-12T15:41:55+00:00"
+            "time": "2017-05-17T06:49:19+00:00"
         },
         {
             "name": "pusher/pusher-php-server",

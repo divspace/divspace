@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "46f2067573f5ae64d1f25823bd247e59",
+    "content-hash": "3d82175f23da20f5980d834d9e4c64fc",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -465,12 +465,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "b77a8cef112e29a7be475ad32963e75606c135bf"
+                "reference": "4613fc224fb08dc1edb78c402b3754cbe2a6e14d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/b77a8cef112e29a7be475ad32963e75606c135bf",
-                "reference": "b77a8cef112e29a7be475ad32963e75606c135bf",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/4613fc224fb08dc1edb78c402b3754cbe2a6e14d",
+                "reference": "4613fc224fb08dc1edb78c402b3754cbe2a6e14d",
                 "shasum": ""
             },
             "require": {
@@ -588,7 +588,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-07-03T13:03:57+00:00"
+            "time": "2017-07-03T20:46:26+00:00"
         },
         {
             "name": "laravel/tinker",

@@ -10,7 +10,7 @@
         </a>
     </li>
     <li class="list-inline-item">
-        <a href="http://stackoverflow.com/cv/kyle-anderson">
+        <a href="https://stackoverflow.com/users/5361065/kyle-anderson">
             <i class="fa fa-stack-overflow" aria-hidden="true"></i>
         </a>
     </li>

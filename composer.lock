@@ -470,12 +470,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f6bdc032f79e3fc3dcc517b245935aa6cd77642a"
+                "reference": "785a7582564450e9f963cb6669553914695c7be1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f6bdc032f79e3fc3dcc517b245935aa6cd77642a",
-                "reference": "f6bdc032f79e3fc3dcc517b245935aa6cd77642a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/785a7582564450e9f963cb6669553914695c7be1",
+                "reference": "785a7582564450e9f963cb6669553914695c7be1",
                 "shasum": ""
             },
             "require": {
@@ -593,20 +593,20 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2017-07-18T18:10:06+00:00"
+            "time": "2017-07-20T20:26:21+00:00"
         },
         {
             "name": "laravel/tinker",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/tinker.git",
-                "reference": "7eb2e281395131897407285672ef5532e87e17f9"
+                "reference": "203978fd67f118902acff95925847e70b72e3daf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/tinker/zipball/7eb2e281395131897407285672ef5532e87e17f9",
-                "reference": "7eb2e281395131897407285672ef5532e87e17f9",
+                "url": "https://api.github.com/repos/laravel/tinker/zipball/203978fd67f118902acff95925847e70b72e3daf",
+                "reference": "203978fd67f118902acff95925847e70b72e3daf",
                 "shasum": ""
             },
             "require": {
@@ -656,7 +656,7 @@
                 "laravel",
                 "psysh"
             ],
-            "time": "2017-06-01T16:31:26+00:00"
+            "time": "2017-07-13T13:11:05+00:00"
         },
         {
             "name": "league/flysystem",

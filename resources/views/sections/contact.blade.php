@@ -7,10 +7,13 @@
             <p><strong>I can help with the following:</strong></p>
             <ul class="list-unstyled service-list">
                 <li>
-                    <i class="fa fa-check" aria-hidden="true"></i> Back-end development with PHP and Laravel
+                    <i class="fa fa-check" aria-hidden="true"></i> Backend development with PHP and Laravel
                 </li>
                 <li>
-                    <i class="fa fa-check" aria-hidden="true"></i> Front-end development with Bootstrap and jQuery
+                    <i class="fa fa-check" aria-hidden="true"></i> Frontend development with jQuery and Bootstrap
+                </li>
+                <li>
+                    <i class="fa fa-check" aria-hidden="true"></i> Server management, hardening, optimization, and upgrades
                 </li>
             </ul>
             <p>Drop me a line at <a href="mailto:{{ $email }}">{{ $email }}</a> or call me at <a href="tel://{{ $phone }}">{{ $phoneFormatted }}</a></p>

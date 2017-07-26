@@ -14,7 +14,7 @@
         <div class="container text-center">
             <img class="profile-image" src="{{ asset('img/profile-image.png') }}" width="160" height="160" alt="">
             <h1 class="name">Kyle Anderson</h1>
-            <div class="title">PHP Developer</div>
+            <div class="title">Full Stack PHP Developer</div>
             <div class="profile">
                 <p>
                     Multifaceted professional with a passion for the space where technology intersects with human experiences. Offering extensive experience in front- and back-end development, programming, systems administration, and technology management. Leveraging a balance of creativity and technical savvy to create elegant code, increased productivity, and exceptional user experiences.</p>

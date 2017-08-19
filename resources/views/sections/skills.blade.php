@@ -39,7 +39,7 @@
             <span class="skill-tag">Sass / SCSS</span>
             <span class="skill-tag">Scrum</span>
             <span class="skill-tag">Vagrant</span>
-            <span class="skill-tag">VueJS</span>
+            <span class="skill-tag">Vue</span>
             <span class="skill-tag">Webpack</span>
             <span class="skill-tag">WordPress</span>
         </div>

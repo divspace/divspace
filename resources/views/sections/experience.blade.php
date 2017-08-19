@@ -14,7 +14,9 @@
                     <time datetime="2017-08-21">August 2017</time> &ndash; <time datetime="{{ date('Y-m-d') }}">Present</time>
                 </div>
             </div>
-            <div class="job-desc"></div>
+            <div class="job-desc">
+                Responsible for development and testing of processes to move data from various sources to various destinations based on requirements. Apply company standards and best practices while providing efficient, well-formed, and highly documented code. Part of an agile team whose primary purpose is the population and maintenance of various data marts.
+            </div>
         </div>
         <div class="item">
             <div class="work-place">
